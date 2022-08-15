@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Undangan Tailwind</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+
+  <body class="font-timesnewroman font-normal">
+    <header
+      id="header"
+      class="bg-cover bg-no-repeat min-h-screen bg-center"
+      style="
+        background-image: linear-gradient(
+            90deg,
+            #281a08 0%,
+            rgba(41, 35, 27, 0.412) 100%
+          ),
+          url('img/header.jpg');
+      "
+    >
+      <div class="md:max-w-[83rem] max-w-xl mx-auto text-white">
+        <nav class="bg-transparent">
+          <div class="flex items-center justify-between p-3 flex-wrap">
+            <a href="#" class="p-2 mr-4 inline-flex flex-col items-center">
+              <h5
+                class="font-Dancingscript mb-2 font-normal text-xl md:text-2xl tracking-wide"
+              >
+                Jhon & Jane
+              </h5>
+              <img
+                class="w-16"
+                src="https://1y3tnmnlnzxq.rootpixel.dev/wedding-3/long/_assets/img/decoration/foliage-navbar-brand.svg"
+                alt=""
+              />
+            </a>
+            <button
+              class="text-white inline-flex p-3 rounded md:hidden ml-auto hover:text-white outline-none nav-toggler"
+              data-target="#navigation"
+              data-ku="#header"
+            >
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+            <div
+              class="md:block hidden mb-4 top-navbar w-full md:w-auto"
+              id="navigation"
+            >
+              <div
+                class="tracking-[.15rem] text-[0.80rem] md:block md:float-left md:flex-row md:ml-auto md:w-auto w-full md:items-center items-start flex flex-col md:h-auto"
+              >
+                <a
+                  href="#"
+                  class="md:px-6 md:inline-flex md:w-auto w-full px-3 py-2 rounded items-center justify-center text-white"
+                >
+                  <span>Undangan</span>
+                </a>
+                <a
+                  href="#"
+                  class="md:px-6 md:inline-flex md:w-auto w-full px-3 py-2 rounded items-center justify-center text-white"
+                >
+                  <span>Mempelai</span>
+                </a>
+                <a
+                  href="#"
+                  class="md:px-6 md:inline-flex md:w-auto w-full px-3 py-2 rounded items-center justify-center text-white"
+                >
+                  <span>Story</span>
+                </a>
+                <a
+                  href="#"
+                  class="md:px-6 md:inline-flex md:w-auto w-full px-3 py-2 rounded items-center justify-center text-white"
+                >
+                  <span>Galleri</span>
+                </a>
+                <a
+                  href="#"
+                  class="md:px-6 md:inline-flex md:w-auto w-full px-3 py-2 rounded items-center justify-center text-white"
+                >
+                  <span>RSVP</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="pt-16 lg:pt-32">
+          <div class="px-4 mx-auto">
+            <h6 class="font-bold text-lg">
+              Wedding Invitation for <span id="guest">Guest</span>
+            </h6>
+            <h6 class="text-[1rem] md:text-lg">
+              Kami mengharap kehadiran anda pada acara pernikahan kami
+            </h6>
+            <h1
+              class="font-Dancingscript mt-4 mb-8 text-[4rem] md:text-[4.5rem] leading-[5rem]"
+            >
+              John Doe & Jane Doe
+            </h1>
+          </div>
+          <div class="-mt-4 md:mt-10 flex-row flex px-4 font-thin text-xs">
+            <div class="col-auto mx-[0.4rem]">
+              <div class="bg-brown mb-3 w-10 md:w-11 rounded-lg">
+                <div class="p-3 md:p-[15px] text-center">00</div>
+              </div>
+              <div class="text-center">Hari</div>
+            </div>
+            <div class="col-auto mx-[0.4rem]">
+              <div class="bg-brown mb-3 w-10 md:w-11 rounded-lg">
+                <div class="p-3 md:p-[15px] text-center">00</div>
+              </div>
+              <div class="text-center">Jam</div>
+            </div>
+            <div class="col-auto mx-[0.4rem]">
+              <div class="bg-brown mb-3 w-10 md:w-11 rounded-lg">
+                <div class="p-3 md:p-[15px] text-center">00</div>
+              </div>
+              <div class="text-center">Menit</div>
+            </div>
+            <div class="col-auto mx-[0.4rem]">
+              <div class="bg-brown mb-3 w-10 md:w-11 rounded-lg">
+                <div class="p-3 md:p-[15px] text-center">00</div>
+              </div>
+              <div class="text-center">Detik</div>
+            </div>
+          </div>
+
+          <div class="px-4 md:mt-10 mt-8 py-9 mx-auto">
+            <a
+              href=""
+              class="bg-[#5f4938] rounded-lg py-[22px] md:py-6 px-7 md:text-lg md:px-8"
+              >Buka Undangan</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <section
+      class="py-16 bg-cover relative"
+      style="background-image: url('img/section1.png')"
+    >
+      <div
+        class="lg:max-w-[860px] sm:max-w-xl max-w-[18rem] text-center mx-auto container"
+      >
+        <h3 class="font-Dancingscript text-[40px] md:text-5xl mb-16 font-thin">
+          Undangan Kami
+        </h3>
+        <h6 class="mb-8 md:text-lg">
+          Assalamu'alaikum wa rohmatullahi wa barokatuh
+        </h6>
+        <h6 class="mb-10 md:text-lg">
+          Maha suci Allah yang telah menciptakan mahluk-Nya berpasang-pasangan
+          dan sungguh besar rahmat dan karunia yang diberikan Allah kepada kita
+          semua. Kami mengundang bapak/ibu/saudara/i sekaligus mengharapkan doa
+          restu dari bapak/ibu/saudara/i dalam acara pernikahan anak kami pada:
+        </h6>
+        <div
+          class="flex justify-evenly md:flex-row flex-wrap flex-col text-2xl"
+        >
+          <div class="mb-10 md:mb-0">
+            <img class="mx-auto" src="img/heart-calendar.svg" alt="calender" />
+            <h4 class="font-bold mt-3">Ahad, 12 Januari 2021</h4>
+          </div>
+          <div class="mb-10 md:mb-0">
+            <img class="mx-auto" src="img/heart-clock.svg" alt="Jam" />
+            <h4 class="font-bold mt-3">Pukul 12.00 WIB</h4>
+          </div>
+          <div class="mb-10 md:flex md:mt-10 items-center">
+            <img
+              class="mx-auto md:mr-5"
+              src="img/heart-pin.svg"
+              alt="Pinpeta"
+            />
+            <h4 class="font-bold mt-3 md:mt-0">
+              di Gedung Serbaguna "Lorem ipsum"
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <div class="rounded-3xl overflow-hidden w-2/3 h-[17rem]">
+          <iframe
+            class="overflow-hidden"
+            width="100%"
+            height="100%"
+            src="https://maps.google.com/maps?q=Rootpixel&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </div>
+      <img
+        class="absolute md:w-48 left-4 md:top-10 top-4 w-24"
+        src="img/foliage-black-left.svg"
+        alt="foliage-kiri"
+      />
+      <img
+        class="absolute md:w-48 right-4 md:top-10 top-4 w-24"
+        src="img/foliage-black-right.svg"
+        alt="foliage-kiri"
+      />
+      <img
+        class="absolute md:w-52 bottom-0 w-40"
+        src="img/leaf-left-1.png"
+        alt="foliage-kiri"
+      />
+      <img
+        class="absolute md:w-52 bottom-0 right-0 w-40"
+        src="img/leaf-right-1.png"
+        alt="foliage-kiri"
+      />
+    </section>
+
+    <section
+      class="relative bg-cover bg-no-repeat py-16 mx-auto"
+      style="
+        background-color: #4f473e;
+        background-image: url('img/section-2.jpg');
+      "
+    >
+      <div
+        class="text-white lg:max-w-[80rem] sm:max-w-lg max-w-[19rem] text-center mx-auto container"
+      >
+        <h3 class="font-Dancingscript text-[40px] md:text-5xl mb-4 font-thin">
+          Mempelai
+        </h3>
+        <div class="text-sm mb-16">
+          Posuere mattis velit in ornare ac nunc pulvinar nunc tristique. Cras
+          consequat diam at aliquam.
+          <br class="hidden lg:block" />
+          dibawah, quis id tellus sit egestas tortor, quis auctor morbi.
+        </div>
+        <div
+          class="flex justify-center md:flex-row flex-wrap flex-col text-2xl"
+        >
+          <div class="lg:w-[50%] mb-10 md:mb-0">
+            <div class="img-wrapper img-wrapper-left mb-10 mx-auto">
+              <div class="img-wrapper-spose">
+                <img src="img/man.png" alt="pengantin pria" />
+              </div>
+            </div>
+            <h3 class="font-Dancingscript font-bold text-3xl md:text-5xl mb-2">
+              John Doe
+            </h3>
+            <h6 class="text-[18px]">Mempelai Pria</h6>
+            <div class="w-40 h-[1px] bg-white mx-auto mt-8 mb-4">
+              <!-- divider -->
+            </div>
+            <div class="flex items-center justify-center font-thin">
+              <i class="fa-brands fa-facebook-f mx-2"></i>
+              <i class="fa-brands fa-twitter mx-2"></i>
+              <i class="fa-brands fa-instagram mx-2"></i>
+            </div>
+          </div>
+          <div class="lg:w-[50%] mb-10 md:mb-0">
+            <div class="img-wrapper img-wrapper-right mb-10 mx-auto">
+              <div class="img-wrapper-spose">
+                <img src="img/woman.png" alt="pengantin pria" />
+              </div>
+            </div>
+            <h3 class="font-Dancingscript font-bold text-3xl md:text-5xl mb-2">
+              Jane Doe
+            </h3>
+            <h6 class="text-[18px]">Mempelai Wanita</h6>
+            <div class="w-40 h-[1px] bg-white mx-auto mt-8 mb-4">
+              <!-- divider -->
+            </div>
+            <div class="flex items-center justify-center font-thin">
+              <i class="fa-brands fa-facebook-f mx-2"></i>
+              <i class="fa-brands fa-twitter mx-2"></i>
+              <i class="fa-brands fa-instagram mx-2"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        class="absolute md:w-48 left-4 md:top-10 top-4 w-24"
+        src="img/foliage-light-left.svg"
+        alt="foliage-kiri"
+      />
+      <img
+        class="absolute md:w-48 right-4 md:top-10 top-4 w-24"
+        src="img/foliage-light-right.svg"
+        alt="foliage-kiri"
+      />
+    </section>
+    <section
+      class="py-16 bg-cover relative"
+      style="background-image: url('img/section1.png')"
+    >
+      <div class="lg:max-w-[1300px] mycontainer text-center mx-auto">
+        <h3 class="font-Dancingscript text-[40px] md:text-5xl mb-4 font-thin">
+          Story
+        </h3>
+        <div class="md:text-sm text-[12px] mb-16 font-thin">
+          Posuere mattis velit in ornare ac nunc pulvinar nunc tristique. Cras
+          consequat diam at aliquam.
+          <br class="hidden lg:block" />
+          dibawah, quis id tellus sit egestas tortor, quis auctor morbi.
+        </div>
+        <div class="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3">
+          <div
+            class="p-2 bg-no-repeat bg-cover bg-transparent relative"
+            style="background-image: url('img/card-story.png')"
+          >
+            <div class="bg-[#fdf8f0] px-5 py-12 text-left">
+              <div class="mb-4">kami satu sekolah</div>
+              <p class="text-xs">
+                Malesuada nibh amet, dui lectus vitae nam malesuada arcu
+                sagittis. Natoque viverra condimentum at condimentum dolor quis
+                aliquam. At sed pellentesque rhoncus nascetur. Iaculis gravida
+                euismod aliquet sed nunc id. Arcu hac eget
+              </p>
+            </div>
+          </div>
+          <div
+            class="p-2 bg-no-repeat bg-cover bg-transparent relative md:row-start-2 md:col-start-2 lg:col-start-3"
+            style="background-image: url('img/card-story.png')"
+          >
+            <div class="bg-[#fdf8f0] px-5 py-12 text-left">
+              <div class="mb-4">kami satu sekolah</div>
+              <p class="text-xs">
+                Malesuada nibh amet, dui lectus vitae nam malesuada arcu
+                sagittis. Natoque viverra condimentum at condimentum dolor quis
+                aliquam. At sed pellentesque rhoncus nascetur. Iaculis gravida
+                euismod aliquet sed nunc id. Arcu hac eget
+              </p>
+            </div>
+          </div>
+          <div
+            class="p-2 bg-no-repeat bg-cover bg-transparent relative md:row-start-3 md:col-start-1"
+            style="background-image: url('img/card-story.png')"
+          >
+            <div class="bg-[#fdf8f0] px-5 py-12 text-left">
+              <div class="mb-4">kami satu sekolah</div>
+              <p class="text-xs">
+                Malesuada nibh amet, dui lectus vitae nam malesuada arcu
+                sagittis. Natoque viverra condimentum at condimentum dolor quis
+                aliquam. At sed pellentesque rhoncus nascetur. Iaculis gravida
+                euismod aliquet sed nunc id. Arcu hac eget
+              </p>
+            </div>
+          </div>
+          <div
+            class="p-2 bg-no-repeat bg-cover bg-transparent md:row-start-4 md:col-start-2 lg:col-start-3"
+            style="background-image: url('img/card-story.png')"
+          >
+            <div class="bg-[#fdf8f0] px-5 py-12 text-left">
+              <div class="mb-4">kami satu sekolah</div>
+              <p class="text-xs">
+                Malesuada nibh amet, dui lectus vitae nam malesuada arcu
+                sagittis. Natoque viverra condimentum at condimentum dolor quis
+                aliquam. At sed pellentesque rhoncus nascetur. Iaculis gravida
+                euismod aliquet sed nunc id. Arcu hac eget
+              </p>
+            </div>
+          </div>
+          <div
+            class="hidden lg:flex lg:row-end-5 lg:row-start-1 justify-center"
+          >
+            <img src="img/list-decoration.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <img
+        class="absolute md:w-48 left-4 md:top-10 top-4 w-24"
+        src="img/foliage-black-left.svg"
+        alt="foliage-kiri"
+      />
+      <img
+        class="absolute md:w-48 right-4 md:top-10 top-4 w-24"
+        src="img/foliage-black-right.svg"
+        alt="foliage-kiri"
+      />
+    </section>
+    <section
+      class="relative bg-cover bg-no-repeat py-16 mx-auto"
+      style="
+        background-color: #4f473e;
+        background-image: url('img/section-2.jpg');
+      "
+    >
+      <div
+        class="text-white lg:max-w-[80rem] sm:max-w-lg max-w-[19rem] text-center mx-auto container"
+      >
+        <h3 class="font-Dancingscript text-[40px] md:text-5xl mb-4 font-thin">
+          Galeri
+        </h3>
+        <div class="text-sm mb-16">
+          Posuere mattis velit in ornare ac nunc pulvinar nunc tristique. Cras
+          consequat diam at aliquam.
+          <br class="hidden lg:block" />
+          dibawah, quis id tellus sit egestas tortor, quis auctor morbi.
+        </div>
+        <div class="slider">
+          <div class="owl-carousel">
+            <div class="slider-card">
+              <div class="flex justify-center items-center mb-4">
+                <img class="object-cover h-96" src="img/1.jpg" alt="" />
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="flex justify-center items-center mb-4">
+                <img class="object-cover h-96" src="img/3.jpg" alt="" />
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="flex justify-center items-center mb-4">
+                <img class="object-cover h-96" src="img/2.jpg" alt="" />
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="flex justify-center items-center mb-4">
+                <img class="object-cover h-96" src="img/4.jpg" alt="" />
+              </div>
+            </div>
+            <div class="slider-card">
+              <div class="flex justify-center items-center mb-4">
+                <img class="object-cover h-96" src="img/5.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img
+        class="absolute md:w-48 left-4 md:top-10 top-4 w-24"
+        src="img/foliage-light-left.svg"
+        alt="foliage-kiri"
+      />
+      <img
+        class="absolute md:w-48 right-4 md:top-10 top-4 w-24"
+        src="img/foliage-light-right.svg"
+        alt="foliage-kiri"
+      />
+    </section>
+    <section
+      class="relative bg-cover bg-no-repeat py-16 mx-auto"
+      style="
+        background-color: #4f473e;
+        background-image: url('img/section-5.jpg');
+      "
+    >
+      <div
+        class="text-white lg:max-w-5xl mycontainer text-center mx-auto container"
+      >
+        <h3 class="font-Dancingscript text-[40px] md:text-5xl mb-4 font-thin">
+          RSVP
+        </h3>
+        <div class="text-sm mb-16">
+          Posuere mattis velit in ornare ac nunc pulvinar nunc tristique. Cras
+          consequat diam at aliquam.
+          <br class="hidden lg:block" />
+          dibawah, quis id tellus sit egestas tortor, quis auctor morbi.
+        </div>
+        <form class="mb-0 space-y-6">
+          <div class="flex flex-col">
+            <label class="text-sm font-medium text-left" for="nama">Nama</label>
+            <input
+              type="text"
+              name="nama"
+              id="nama"
+              placeholder="Nama Lengkap"
+              class="px-4 py-4 border text-black border-gray-300 rounded text-sm"
+            />
+          </div>
+          <div class="flex flex-col">
+            <label class="text-sm font-medium text-left" for="noHp"
+              >WhatsApp / HP</label
+            >
+            <input
+              type="tel"
+              name="noHp"
+              id="noHp"
+              placeholder="WhatsApp / HP"
+              class="px-4 py-4 border text-black border-gray-300 rounded text-sm"
+            />
+          </div>
+          <div class="flex flex-col">
+            <label class="text-sm font-medium text-left" for="nama"
+              >Apakah anda bersedia hadir di acara kami?</label
+            >
+            <select
+              name="cars"
+              id="cars"
+              class="text-black px-4 py-4 rounded text-sm"
+            >
+              <option value="">pilih salah satu</option>
+              <option value="Ya">Ya</option>
+              <option value="Tidak">Tidak</option>
+            </select>
+          </div>
+          <div class="flex flex-col">
+            <label class="text-sm font-medium text-left" for="nama"
+              >Tulis Ucapan</label
+            >
+            <textarea
+              class="text-black rounded px-4 py-4"
+              name="Ucapan"
+              id="ucapan"
+              cols="30"
+              rows="5"
+              placeholder="Anda bisa mengucapkan selamat dan Doa"
+            ></textarea>
+          </div>
+          <div class="px-4 py-2 mx-auto mt-0">
+            <button
+              type="submit"
+              href=""
+              class="bg-[#5f4938] rounded-lg py-[22px] md:py-6 px-7 md:text-lg md:px-8"
+            >
+              Kirim ucapan
+            </button>
+          </div>
+        </form>
+      </div>
+      <img
+        class="absolute md:w-48 left-4 md:top-10 top-4 w-24"
+        src="img/foliage-light-left.svg"
+        alt="foliage-kiri"
+      />
+      <img
+        class="absolute md:w-48 right-4 md:top-10 top-4 w-24"
+        src="img/foliage-light-right.svg"
+        alt="foliage-kiri"
+      />
+    </section>
+    <section
+      class="relative bg-cover bg-no-repeat py-16 mx-auto"
+      style="background-color: #2c2321"
+    >
+      <div
+        class="text-white lg:max-w-5xl mycontainer text-center mx-auto container"
+      >
+        <h6>Hitung Mundur waktu Acara</h6>
+        <div
+          class="md:mt-10 flex-row flex px-4 font-thin text-xs justify-center"
+        >
+          <div class="col-auto mx-[0.4rem]">
+            <div class="bg-brown mb-3 w-10 md:w-11 rounded-lg">
+              <div class="p-3 md:p-[15px] text-center">00</div>
+            </div>
+            <div class="text-center">Hari</div>
+          </div>
+          <div class="col-auto mx-[0.4rem]">
+            <div class="bg-brown mb-3 w-10 md:w-11 rounded-lg">
+              <div class="p-3 md:p-[15px] text-center">00</div>
+            </div>
+            <div class="text-center">Jam</div>
+          </div>
+          <div class="col-auto mx-[0.4rem]">
+            <div class="bg-brown mb-3 w-10 md:w-11 rounded-lg">
+              <div class="p-3 md:p-[15px] text-center">00</div>
+            </div>
+            <div class="text-center">Menit</div>
+          </div>
+          <div class="col-auto mx-[0.4rem]">
+            <div class="bg-brown mb-3 w-10 md:w-11 rounded-lg">
+              <div class="p-3 md:p-[15px] text-center">00</div>
+            </div>
+            <div class="text-center">Detik</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-[#5f4938] text-white py-8">
+      <div class="md:max-w-7xl mycontainer mx-auto">
+        <div class="flex flex-col md:flex-row md:justify-between">
+          <div class="mb-4 md:mb-0">
+            Copyright Levidio Wedding - All Rights Reserved
+          </div>
+          <div class="text-sm">Building with Tailwind CSS by Rsiyun</div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+  </body>
+</html>
