@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@rsiyun 
-tailwindlabs
-/
-tailwindcss
-Public
-Code
-Issues
-11
-Pull requests
-5
-Discussions
-Actions
-Security
-Insights
-tailwindcss/README.md
-@jeetto
-jeetto Centered the project name (#9000)
-…
-Latest commit c6bac2d 15 days ago
- History
- 8 contributors
-@adamwathan@reinink@thomasrockhu@ThomOrlo@sachinraja@k-utsumi@dennishzg@jeetto
-40 lines (27 sloc)  1.73 KB
-
 <p align="center">
   <a href="https://tailwindcss.com/#gh-light-mode-only" target="_blank">
     <img src="./.github/logo-light.svg" alt="Tailwind CSS" width="350" height="70">
@@ -69,17 +38,3 @@ For casual chit-chat with others using the framework:
 ## Contributing
 
 If you're interested in contributing to Tailwind CSS, please read our [contributing docs](https://github.com/tailwindcss/tailwindcss/blob/master/.github/CONTRIBUTING.md) **before submitting a pull request**.
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
